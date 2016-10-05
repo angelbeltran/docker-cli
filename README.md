@@ -1,6 +1,18 @@
 # Dockernode
 
-This package exports a function, docker, providing access to all of docker's cli commands.
+This Node.js package exports a function, docker, providing access to all of docker's cli commands, and provides the docker function as a global in a Node.js REPL.
+
+## Installing
+
+```sh
+npm install dockernode
+```
+
+## Running REPL
+
+```sh
+dockernode
+```
 
 ## Examples
 
